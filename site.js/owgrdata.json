@@ -1,0 +1,1237 @@
+[
+ {
+   "ranking": 1,
+   "lastWeek": 1,
+   "name": "Scottie Scheffler"
+ },
+ {
+   "ranking": 2,
+   "lastWeek": 2,
+   "name": "Cameron Smith"
+ },
+ {
+   "ranking": 3,
+   "lastWeek": 5,
+   "name": "Will Zalatoris"
+ },
+ {
+   "ranking": 4,
+   "lastWeek": 3,
+   "name": "Rory McIlroy"
+ },
+ {
+   "ranking": 5,
+   "lastWeek": 9,
+   "name": "Matt Fitzpatrick"
+ },
+ {
+   "ranking": 6,
+   "lastWeek": 4,
+   "name": "Sam Burns"
+ },
+ {
+   "ranking": 7,
+   "lastWeek": 7,
+   "name": "Justin Thomas"
+ },
+ {
+   "ranking": 8,
+   "lastWeek": 6,
+   "name": "Patrick Cantlay"
+ },
+ {
+   "ranking": 9,
+   "lastWeek": 8,
+   "name": "Xander Schauffele"
+ },
+ {
+   "ranking": 10,
+   "lastWeek": 10,
+   "name": "Cameron Young"
+ },
+ {
+   "ranking": 11,
+   "lastWeek": 12,
+   "name": "Tony Finau"
+ },
+ {
+   "ranking": 12,
+   "lastWeek": 11,
+   "name": "Hideki Matsuyama"
+ },
+ {
+   "ranking": 13,
+   "lastWeek": 14,
+   "name": "Sungjae Im"
+ },
+ {
+   "ranking": 14,
+   "lastWeek": 13,
+   "name": "Max Homa"
+ },
+ {
+   "ranking": 15,
+   "lastWeek": 15,
+   "name": "Billy Horschel"
+ },
+ {
+   "ranking": 16,
+   "lastWeek": 16,
+   "name": "Jordan Spieth"
+ },
+ {
+   "ranking": 17,
+   "lastWeek": 19,
+   "name": "Jon Rahm"
+ },
+ {
+   "ranking": 18,
+   "lastWeek": 17,
+   "name": "Viktor Hovland"
+ },
+ {
+   "ranking": 19,
+   "lastWeek": 20,
+   "name": "Collin Morikawa"
+ },
+ {
+   "ranking": 20,
+   "lastWeek": 18,
+   "name": "Joaquin Niemann"
+ },
+ {
+   "ranking": 21,
+   "lastWeek": 33,
+   "name": "Sepp Straka"
+ },
+ {
+   "ranking": 22,
+   "lastWeek": 21,
+   "name": "Tom Hoge"
+ },
+ {
+   "ranking": 23,
+   "lastWeek": 22,
+   "name": "Talor Gooch"
+ },
+ {
+   "ranking": 24,
+   "lastWeek": 24,
+   "name": "Kevin Kisner"
+ },
+ {
+   "ranking": 25,
+   "lastWeek": 23,
+   "name": "Keegan Bradley"
+ },
+ {
+   "ranking": 26,
+   "lastWeek": 26,
+   "name": "Corey Conners"
+ },
+ {
+   "ranking": 27,
+   "lastWeek": 25,
+   "name": "Shane Lowry"
+ },
+ {
+   "ranking": 28,
+   "lastWeek": 30,
+   "name": "J.T. Poston"
+ },
+ {
+   "ranking": 29,
+   "lastWeek": 27,
+   "name": "Aaron Wise"
+ },
+ {
+   "ranking": 30,
+   "lastWeek": 54,
+   "name": "Brian Harman"
+ },
+ {
+   "ranking": 31,
+   "lastWeek": 29,
+   "name": "Davis Riley"
+ },
+ {
+   "ranking": 32,
+   "lastWeek": 28,
+   "name": "Anirban Lahiri"
+ },
+ {
+   "ranking": 33,
+   "lastWeek": 31,
+   "name": "Seamus Power"
+ },
+ {
+   "ranking": 34,
+   "lastWeek": 32,
+   "name": "Cameron Tringale"
+ },
+ {
+   "ranking": 35,
+   "lastWeek": 34,
+   "name": "Keith Mitchell"
+ },
+ {
+   "ranking": 36,
+   "lastWeek": 43,
+   "name": "Sahith Theegala"
+ },
+ {
+   "ranking": 37,
+   "lastWeek": 35,
+   "name": "Tommy Fleetwood"
+ },
+ {
+   "ranking": 38,
+   "lastWeek": 37,
+   "name": "J.J. Spaun"
+ },
+ {
+   "ranking": 39,
+   "lastWeek": 40,
+   "name": "K.H. Lee"
+ },
+ {
+   "ranking": 40,
+   "lastWeek": 44,
+   "name": "Tom Kim"
+ },
+ {
+   "ranking": 41,
+   "lastWeek": 42,
+   "name": "Denny McCarthy"
+ },
+ {
+   "ranking": 42,
+   "lastWeek": 36,
+   "name": "Russell Henley"
+ },
+ {
+   "ranking": 43,
+   "lastWeek": 38,
+   "name": "Mito Pereira"
+ },
+ {
+   "ranking": 44,
+   "lastWeek": 41,
+   "name": "Tyrrell Hatton"
+ },
+ {
+   "ranking": 45,
+   "lastWeek": 39,
+   "name": "Luke List"
+ },
+ {
+   "ranking": 46,
+   "lastWeek": 45,
+   "name": "Maverick McNealy"
+ },
+ {
+   "ranking": 47,
+   "lastWeek": 46,
+   "name": "Adam Hadwin"
+ },
+ {
+   "ranking": 48,
+   "lastWeek": 48,
+   "name": "Sebastián Muñoz"
+ },
+ {
+   "ranking": 49,
+   "lastWeek": 47,
+   "name": "Brendan Steele"
+ },
+ {
+   "ranking": 50,
+   "lastWeek": 49,
+   "name": "Chris Kirk"
+ },
+ {
+   "ranking": 51,
+   "lastWeek": 63,
+   "name": "Adam Scott"
+ },
+ {
+   "ranking": 52,
+   "lastWeek": 50,
+   "name": "Kurt Kitayama"
+ },
+ {
+   "ranking": 53,
+   "lastWeek": 51,
+   "name": "Jason Kokrak"
+ },
+ {
+   "ranking": 54,
+   "lastWeek": 52,
+   "name": "Scott Stallings"
+ },
+ {
+   "ranking": 55,
+   "lastWeek": 53,
+   "name": "Lucas Herbert"
+ },
+ {
+   "ranking": 56,
+   "lastWeek": 55,
+   "name": "Harold Varner III"
+ },
+ {
+   "ranking": 57,
+   "lastWeek": 56,
+   "name": "Mackenzie Hughes"
+ },
+ {
+   "ranking": 58,
+   "lastWeek": 57,
+   "name": "Si Woo Kim"
+ },
+ {
+   "ranking": 59,
+   "lastWeek": 59,
+   "name": "Gary Woodland"
+ },
+ {
+   "ranking": 60,
+   "lastWeek": 58,
+   "name": "Matt Kuchar"
+ },
+ {
+   "ranking": 61,
+   "lastWeek": 60,
+   "name": "Alex Noren"
+ },
+ {
+   "ranking": 62,
+   "lastWeek": 77,
+   "name": "Cam Davis"
+ },
+ {
+   "ranking": 63,
+   "lastWeek": 62,
+   "name": "Christiaan Bezuidenhout"
+ },
+ {
+   "ranking": 64,
+   "lastWeek": 61,
+   "name": "Matt Jones"
+ },
+ {
+   "ranking": 65,
+   "lastWeek": 65,
+   "name": "Marc Leishman"
+ },
+ {
+   "ranking": 66,
+   "lastWeek": 64,
+   "name": "Taylor Pendrith"
+ },
+ {
+   "ranking": 67,
+   "lastWeek": 124,
+   "name": "Lucas Glover"
+ },
+ {
+   "ranking": 68,
+   "lastWeek": 67,
+   "name": "Emiliano Grillo"
+ },
+ {
+   "ranking": 69,
+   "lastWeek": 66,
+   "name": "Chez Reavie"
+ },
+ {
+   "ranking": 70,
+   "lastWeek": 70,
+   "name": "Troy Merritt"
+ },
+ {
+   "ranking": 71,
+   "lastWeek": 87,
+   "name": "Trey Mullinax"
+ },
+ {
+   "ranking": 72,
+   "lastWeek": 95,
+   "name": "Andrew Putnam"
+ },
+ {
+   "ranking": 73,
+   "lastWeek": 68,
+   "name": "Abraham Ancer"
+ },
+ {
+   "ranking": 74,
+   "lastWeek": 69,
+   "name": "Daniel Berger"
+ },
+ {
+   "ranking": 75,
+   "lastWeek": 71,
+   "name": "Paul Casey"
+ },
+ {
+   "ranking": 76,
+   "lastWeek": 72,
+   "name": "Lanto Griffin"
+ },
+ {
+   "ranking": 77,
+   "lastWeek": 76,
+   "name": "Beau Hossler"
+ },
+ {
+   "ranking": 78,
+   "lastWeek": 73,
+   "name": "Hudson Swafford"
+ },
+ {
+   "ranking": 79,
+   "lastWeek": 74,
+   "name": "Joel Dahmen"
+ },
+ {
+   "ranking": 80,
+   "lastWeek": 80,
+   "name": "Taylor Moore"
+ },
+ {
+   "ranking": 81,
+   "lastWeek": 75,
+   "name": "Russell Knox"
+ },
+ {
+   "ranking": 82,
+   "lastWeek": 79,
+   "name": "Brendon Todd"
+ },
+ {
+   "ranking": 83,
+   "lastWeek": 78,
+   "name": "John Huh"
+ },
+ {
+   "ranking": 84,
+   "lastWeek": 81,
+   "name": "Alex Smalley"
+ },
+ {
+   "ranking": 85,
+   "lastWeek": 82,
+   "name": "Matthew NeSmith"
+ },
+ {
+   "ranking": 86,
+   "lastWeek": 86,
+   "name": "Wyndham Clark"
+ },
+ {
+   "ranking": 87,
+   "lastWeek": 83,
+   "name": "Matthew Wolff"
+ },
+ {
+   "ranking": 88,
+   "lastWeek": 84,
+   "name": "Brandon Wu"
+ },
+ {
+   "ranking": 89,
+   "lastWeek": 85,
+   "name": "Justin Rose"
+ },
+ {
+   "ranking": 90,
+   "lastWeek": 108,
+   "name": "Lee Hodges"
+ },
+ {
+   "ranking": 91,
+   "lastWeek": 88,
+   "name": "Adam Long"
+ },
+ {
+   "ranking": 92,
+   "lastWeek": 89,
+   "name": "Kevin Streelman"
+ },
+ {
+   "ranking": 93,
+   "lastWeek": 90,
+   "name": "Doug Ghim"
+ },
+ {
+   "ranking": 94,
+   "lastWeek": 94,
+   "name": "Aaron Rai"
+ },
+ {
+   "ranking": 95,
+   "lastWeek": 100,
+   "name": "Adam Schenk"
+ },
+ {
+   "ranking": 96,
+   "lastWeek": 91,
+   "name": "Patrick Rodgers"
+ },
+ {
+   "ranking": 97,
+   "lastWeek": 92,
+   "name": "Brooks Koepka"
+ },
+ {
+   "ranking": 98,
+   "lastWeek": 93,
+   "name": "C.T. Pan"
+ },
+ {
+   "ranking": 99,
+   "lastWeek": 98,
+   "name": "Hayden Buckley"
+ },
+ {
+   "ranking": 100,
+   "lastWeek": 101,
+   "name": "Stephan Jaeger"
+ },
+ {
+   "ranking": 101,
+   "lastWeek": 96,
+   "name": "Peter Malnati"
+ },
+ {
+   "ranking": 102,
+   "lastWeek": 97,
+   "name": "Chad Ramey"
+ },
+ {
+   "ranking": 103,
+   "lastWeek": 102,
+   "name": "David Lipsky"
+ },
+ {
+   "ranking": 104,
+   "lastWeek": 99,
+   "name": "Danny Lee"
+ },
+ {
+   "ranking": 105,
+   "lastWeek": 103,
+   "name": "Sam Ryder"
+ },
+ {
+   "ranking": 106,
+   "lastWeek": 106,
+   "name": "Adam Svensson"
+ },
+ {
+   "ranking": 107,
+   "lastWeek": 104,
+   "name": "Chesson Hadley"
+ },
+ {
+   "ranking": 108,
+   "lastWeek": 117,
+   "name": "Dylan Frittelli"
+ },
+ {
+   "ranking": 109,
+   "lastWeek": 107,
+   "name": "James Hahn"
+ },
+ {
+   "ranking": 110,
+   "lastWeek": 105,
+   "name": "Mark Hubbard"
+ },
+ {
+   "ranking": 111,
+   "lastWeek": 125,
+   "name": "Ryan Palmer"
+ },
+ {
+   "ranking": 112,
+   "lastWeek": 114,
+   "name": "Michael Thompson"
+ },
+ {
+   "ranking": 113,
+   "lastWeek": 112,
+   "name": "Robert Streb"
+ },
+ {
+   "ranking": 114,
+   "lastWeek": 109,
+   "name": "Jhonattan Vegas"
+ },
+ {
+   "ranking": 115,
+   "lastWeek": 115,
+   "name": "Martin Laird"
+ },
+ {
+   "ranking": 116,
+   "lastWeek": 110,
+   "name": "Carlos Ortiz"
+ },
+ {
+   "ranking": 117,
+   "lastWeek": 111,
+   "name": "Jason Day"
+ },
+ {
+   "ranking": 118,
+   "lastWeek": 118,
+   "name": "Rickie Fowler"
+ },
+ {
+   "ranking": 119,
+   "lastWeek": 113,
+   "name": "Pat Perez"
+ },
+ {
+   "ranking": 120,
+   "lastWeek": 116,
+   "name": "Webb Simpson"
+ },
+ {
+   "ranking": 121,
+   "lastWeek": 119,
+   "name": "Vince Whaley"
+ },
+ {
+   "ranking": 122,
+   "lastWeek": 120,
+   "name": "Callum Tarren"
+ },
+ {
+   "ranking": 123,
+   "lastWeek": 121,
+   "name": "Scott Piercy"
+ },
+ {
+   "ranking": 124,
+   "lastWeek": 122,
+   "name": "Stewart Cink"
+ },
+ {
+   "ranking": 125,
+   "lastWeek": 123,
+   "name": "Charles Howell III"
+ },
+ {
+   "ranking": 126,
+   "lastWeek": 126,
+   "name": "Nick Watney"
+ },
+ {
+   "ranking": 127,
+   "lastWeek": 127,
+   "name": "Max McGreevy"
+ },
+ {
+   "ranking": 128,
+   "lastWeek": 128,
+   "name": "Patton Kizzire"
+ },
+ {
+   "ranking": 129,
+   "lastWeek": 129,
+   "name": "Nate Lashley"
+ },
+ {
+   "ranking": 130,
+   "lastWeek": 130,
+   "name": "Matthias Schwab"
+ },
+ {
+   "ranking": 131,
+   "lastWeek": 131,
+   "name": "Cameron Champ"
+ },
+ {
+   "ranking": 132,
+   "lastWeek": 132,
+   "name": "Erik van Rooyen"
+ },
+ {
+   "ranking": 133,
+   "lastWeek": 133,
+   "name": "Kevin Tway"
+ },
+ {
+   "ranking": 134,
+   "lastWeek": 134,
+   "name": "Matt Wallace"
+ },
+ {
+   "ranking": 135,
+   "lastWeek": 135,
+   "name": "Danny Willett"
+ },
+ {
+   "ranking": 136,
+   "lastWeek": 143,
+   "name": "Tyler Duncan"
+ },
+ {
+   "ranking": 137,
+   "lastWeek": 137,
+   "name": "Greyson Sigg"
+ },
+ {
+   "ranking": 138,
+   "lastWeek": 136,
+   "name": "Kramer Hickok"
+ },
+ {
+   "ranking": 139,
+   "lastWeek": 138,
+   "name": "Doc Redman"
+ },
+ {
+   "ranking": 140,
+   "lastWeek": 139,
+   "name": "Harry Higgs"
+ },
+ {
+   "ranking": 141,
+   "lastWeek": 140,
+   "name": "Nick Taylor"
+ },
+ {
+   "ranking": 142,
+   "lastWeek": 141,
+   "name": "Nick Hardy"
+ },
+ {
+   "ranking": 143,
+   "lastWeek": 142,
+   "name": "Francesco Molinari"
+ },
+ {
+   "ranking": 144,
+   "lastWeek": 144,
+   "name": "Ryan Brehm"
+ },
+ {
+   "ranking": 145,
+   "lastWeek": 145,
+   "name": "Austin Smotherman"
+ },
+ {
+   "ranking": 146,
+   "lastWeek": 146,
+   "name": "Martin Trainer"
+ },
+ {
+   "ranking": 147,
+   "lastWeek": 147,
+   "name": "Brian Stuard"
+ },
+ {
+   "ranking": 148,
+   "lastWeek": 148,
+   "name": "Justin Lower"
+ },
+ {
+   "ranking": 149,
+   "lastWeek": 149,
+   "name": "Kelly Kraft"
+ },
+ {
+   "ranking": 150,
+   "lastWeek": 150,
+   "name": "Garrick Higgo"
+ },
+ {
+   "ranking": 151,
+   "lastWeek": 151,
+   "name": "Michael Gligic"
+ },
+ {
+   "ranking": 152,
+   "lastWeek": 152,
+   "name": "Rory Sabbatini"
+ },
+ {
+   "ranking": 153,
+   "lastWeek": 153,
+   "name": "Henrik Norlander"
+ },
+ {
+   "ranking": 154,
+   "lastWeek": 154,
+   "name": "Zach Johnson"
+ },
+ {
+   "ranking": 155,
+   "lastWeek": 156,
+   "name": "Hank Lebioda"
+ },
+ {
+   "ranking": 156,
+   "lastWeek": 157,
+   "name": "Brice Garnett"
+ },
+ {
+   "ranking": 157,
+   "lastWeek": 158,
+   "name": "Cameron Percy"
+ },
+ {
+   "ranking": 158,
+   "lastWeek": 159,
+   "name": "Jonathan Byrd"
+ },
+ {
+   "ranking": 159,
+   "lastWeek": 160,
+   "name": "Charley Hoffman"
+ },
+ {
+   "ranking": 160,
+   "lastWeek": 161,
+   "name": "Austin Cook"
+ },
+ {
+   "ranking": 161,
+   "lastWeek": 162,
+   "name": "Ian Poulter"
+ },
+ {
+   "ranking": 162,
+   "lastWeek": 163,
+   "name": "Bryson DeChambeau"
+ },
+ {
+   "ranking": 163,
+   "lastWeek": 164,
+   "name": "Andrew Novak"
+ },
+ {
+   "ranking": 164,
+   "lastWeek": 165,
+   "name": "Andrew Landry"
+ },
+ {
+   "ranking": 165,
+   "lastWeek": 166,
+   "name": "Ben Martin"
+ },
+ {
+   "ranking": 166,
+   "lastWeek": 167,
+   "name": "Bill Haas"
+ },
+ {
+   "ranking": 167,
+   "lastWeek": 168,
+   "name": "Satoshi Kodaira"
+ },
+ {
+   "ranking": 168,
+   "lastWeek": 169,
+   "name": "Paul Barjon"
+ },
+ {
+   "ranking": 169,
+   "lastWeek": 170,
+   "name": "Ryan Armour"
+ },
+ {
+   "ranking": 170,
+   "lastWeek": 171,
+   "name": "William McGirt"
+ },
+ {
+   "ranking": 171,
+   "lastWeek": 172,
+   "name": "Luke Donald"
+ },
+ {
+   "ranking": 172,
+   "lastWeek": 173,
+   "name": "Joseph Bramlett"
+ },
+ {
+   "ranking": 173,
+   "lastWeek": 174,
+   "name": "Roger Sloan"
+ },
+ {
+   "ranking": 174,
+   "lastWeek": 175,
+   "name": "Dylan Wu"
+ },
+ {
+   "ranking": 175,
+   "lastWeek": 176,
+   "name": "Seth Reeves"
+ },
+ {
+   "ranking": 176,
+   "lastWeek": 177,
+   "name": "Sung Kang"
+ },
+ {
+   "ranking": 177,
+   "lastWeek": 178,
+   "name": "Vaughn Taylor"
+ },
+ {
+   "ranking": 178,
+   "lastWeek": 179,
+   "name": "Richy Werenski"
+ },
+ {
+   "ranking": 179,
+   "lastWeek": 180,
+   "name": "Brandt Snedeker"
+ },
+ {
+   "ranking": 180,
+   "lastWeek": 181,
+   "name": "Scott Gutschewski"
+ },
+ {
+   "ranking": 181,
+   "lastWeek": 182,
+   "name": "Sean O'Hair"
+ },
+ {
+   "ranking": 182,
+   "lastWeek": 183,
+   "name": "Chase Seiffert"
+ },
+ {
+   "ranking": 183,
+   "lastWeek": 184,
+   "name": "Curtis Thompson"
+ },
+ {
+   "ranking": 184,
+   "lastWeek": 185,
+   "name": "Kevin Chappell"
+ },
+ {
+   "ranking": 185,
+   "lastWeek": 186,
+   "name": "Camilo Villegas"
+ },
+ {
+   "ranking": 186,
+   "lastWeek": 187,
+   "name": "Ben Kohles"
+ },
+ {
+   "ranking": 187,
+   "lastWeek": 188,
+   "name": "Jim Knous"
+ },
+ {
+   "ranking": 188,
+   "lastWeek": 189,
+   "name": "Tyler McCumber"
+ },
+ {
+   "ranking": 189,
+   "lastWeek": 190,
+   "name": "Harris English"
+ },
+ {
+   "ranking": 190,
+   "lastWeek": 191,
+   "name": "Kiradech Aphibarnrat"
+ },
+ {
+   "ranking": 191,
+   "lastWeek": 192,
+   "name": "Seung-Yul Noh"
+ },
+ {
+   "ranking": 192,
+   "lastWeek": 193,
+   "name": "Ryan Moore"
+ },
+ {
+   "ranking": 193,
+   "lastWeek": 194,
+   "name": "Brandon Hagy"
+ },
+ {
+   "ranking": 194,
+   "lastWeek": 195,
+   "name": "Tommy Gainey"
+ },
+ {
+   "ranking": 195,
+   "lastWeek": 196,
+   "name": "David Skinns"
+ },
+ {
+   "ranking": 196,
+   "lastWeek": 197,
+   "name": "Scott Brown"
+ },
+ {
+   "ranking": 197,
+   "lastWeek": 198,
+   "name": "David Lingmerth"
+ },
+ {
+   "ranking": 198,
+   "lastWeek": 199,
+   "name": "Grayson Murray"
+ },
+ {
+   "ranking": 199,
+   "lastWeek": 200,
+   "name": "Bo Hoag"
+ },
+ {
+   "ranking": 200,
+   "lastWeek": 201,
+   "name": "Wesley Bryan"
+ },
+ {
+   "ranking": 201,
+   "lastWeek": 202,
+   "name": "Jimmy Walker"
+ },
+ {
+   "ranking": 202,
+   "lastWeek": 203,
+   "name": "Brian Gay"
+ },
+ {
+   "ranking": 203,
+   "lastWeek": 204,
+   "name": "Jim Herman"
+ },
+ {
+   "ranking": 204,
+   "lastWeek": 205,
+   "name": "Aaron Baddeley"
+ },
+ {
+   "ranking": 205,
+   "lastWeek": 206,
+   "name": "Bronson Burgoon"
+ },
+ {
+   "ranking": 206,
+   "lastWeek": 207,
+   "name": "Jared Wolfe"
+ },
+ {
+   "ranking": 207,
+   "lastWeek": 208,
+   "name": "Kyle Stanley"
+ },
+ {
+   "ranking": 208,
+   "lastWeek": 209,
+   "name": "Robert Garrigus"
+ },
+ {
+   "ranking": 209,
+   "lastWeek": 210,
+   "name": "Dawie van der Walt"
+ },
+ {
+   "ranking": 210,
+   "lastWeek": 211,
+   "name": "Henrik Stenson"
+ },
+ {
+   "ranking": 211,
+   "lastWeek": 212,
+   "name": "Michael Kim"
+ },
+ {
+   "ranking": 212,
+   "lastWeek": 213,
+   "name": "Bo Van Pelt"
+ },
+ {
+   "ranking": 213,
+   "lastWeek": 214,
+   "name": "Peter Uihlein"
+ },
+ {
+   "ranking": 214,
+   "lastWeek": 215,
+   "name": "Phil Mickelson"
+ },
+ {
+   "ranking": 215,
+   "lastWeek": 216,
+   "name": "Jonas Blixt"
+ },
+ {
+   "ranking": 216,
+   "lastWeek": 217,
+   "name": "Brett Drewitt"
+ },
+ {
+   "ranking": 217,
+   "lastWeek": 218,
+   "name": "Jason Dufner"
+ },
+ {
+   "ranking": 218,
+   "lastWeek": 219,
+   "name": "Joshua Creel"
+ },
+ {
+   "ranking": 219,
+   "lastWeek": 220,
+   "name": "Mark Hensby"
+ },
+ {
+   "ranking": 220,
+   "lastWeek": 221,
+   "name": "Chris Stroud"
+ },
+ {
+   "ranking": 221,
+   "lastWeek": 222,
+   "name": "Ricky Barnes"
+ },
+ {
+   "ranking": 222,
+   "lastWeek": 223,
+   "name": "David Hearn"
+ },
+ {
+   "ranking": 223,
+   "lastWeek": 224,
+   "name": "Greg Chalmers"
+ },
+ {
+   "ranking": 224,
+   "lastWeek": 225,
+   "name": "D.A. Points"
+ },
+ {
+   "ranking": 225,
+   "lastWeek": 226,
+   "name": "Tiger Woods"
+ },
+ {
+   "ranking": 226,
+   "lastWeek": 227,
+   "name": "J.J. Henry"
+ },
+ {
+   "ranking": 227,
+   "lastWeek": 228,
+   "name": "Ben Crane"
+ },
+ {
+   "ranking": 228,
+   "lastWeek": 229,
+   "name": "Fabián Gómez"
+ },
+ {
+   "ranking": 229,
+   "lastWeek": 230,
+   "name": "Padraig Harrington"
+ },
+ {
+   "ranking": 230,
+   "lastWeek": 231,
+   "name": "D.J. Trahan"
+ },
+ {
+   "ranking": 231,
+   "lastWeek": 232,
+   "name": "Johnson Wagner"
+ },
+ {
+   "ranking": 232,
+   "lastWeek": 233,
+   "name": "Jim Furyk"
+ },
+ {
+   "ranking": 233,
+   "lastWeek": 234,
+   "name": "Derek Ernst"
+ },
+ {
+   "ranking": 234,
+   "lastWeek": 235,
+   "name": "Sangmoon Bae"
+ },
+ {
+   "ranking": 235,
+   "lastWeek": 236,
+   "name": "Arjun Atwal"
+ },
+ {
+   "ranking": 236,
+   "lastWeek": 237,
+   "name": "John Merrick"
+ },
+ {
+   "ranking": 237,
+   "lastWeek": 238,
+   "name": "Paul Goydos"
+ },
+ {
+   "ranking": 237,
+   "lastWeek": 238,
+   "name": "George McNeill"
+ },
+ {
+   "ranking": 239,
+   "lastWeek": 240,
+   "name": "Ryuji Imada"
+ },
+ {
+   "ranking": 240,
+   "lastWeek": 241,
+   "name": "Jay Haas"
+ },
+ {
+   "ranking": 241,
+   "lastWeek": 242,
+   "name": "Richard Johnson"
+ },
+ {
+   "ranking": 242,
+   "lastWeek": 243,
+   "name": "Davis Love III"
+ },
+ {
+   "ranking": 243,
+   "lastWeek": 244,
+   "name": "Omar Uresti"
+ },
+ {
+   "ranking": 244,
+   "lastWeek": 245,
+   "name": "John Senden"
+ },
+ {
+   "ranking": 245,
+   "lastWeek": 246,
+   "name": "Brian Davis"
+ },
+ {
+   "ranking": 246,
+   "lastWeek": 247,
+   "name": "Kevin Stadler"
+ },
+ {
+   "ranking": 247,
+   "lastWeek": 248,
+   "name": "Matt Every"
+ }
+]
