@@ -1,6 +1,6 @@
-var owgrDataRaw = require('./owgrdata.json'); //(with path)
-var nextTournament = require('./sandersonfarms.json'); //(with path)
-var sgTeeGreenRaw = require('./sgtg.json'); //(with path)
+var owgrDataRaw = require('./owgrrankings1005.json'); //(with path)
+var nextTournament = require('./shrinersopen.json'); //(with path)
+var sgTeeGreenRaw = require('./sgtg1005.json'); //(with path)
 
 let stringTournament = JSON.stringify(nextTournament);
 let tournamentObjects = JSON.parse(stringTournament);
@@ -13,60 +13,47 @@ let sgTeeGreenObjects = JSON.parse(sgtegString);
 
 
 /**Sets World Golf Rankings Watermark Positive or Negative Trends */
-
+function rankingTrendSetter(){
 owgrObjects.forEach(player => { 
   const findRankingChange = player.lastWeek - player.ranking
-  /**Finds players who have moved greater then 10 spots up versus previous week in rankings */
-  if (findRankingChange >= 10 || findRankingChange<= -10 ){
+  /**Finds players who have moved greater then 10 up or down the rankings versus previous week in rankings */
+  if (findRankingChange >= 5 || findRankingChange<= -5 ){
     player.lastWeek = findRankingChange
   }else{
     player.lastWeek = 0
   }
-  /**Finds players who have moved greater then 10 spots DOWN versus previous week in rankings
-  if (findRankingChange >=0 || findRankingChange <= 9 || findRankingChange >= -9 ){
-    player.lastWeek = 0
-  } */
   
 });
+}
 
-
+/**Determines who is playing in this weeks tournament from the World Golf Rankings top 300*/
 function tournamentParticipants(){
   tournListtNames = [];
   const owgrField = [];
-  
+
+  /**push the tournament participants from json data to global array and removes dirty data*/
   tournamentObjects.forEach(fieldName => { 
     tournListtNames.push(fieldName.name);
   });
-
-  final = owgrField.concat(owgrObjects.filter(player => tournListtNames.includes(player.name)));
+  /**compares OWGRObjects (owgr top 300 list) and filters out anyone who is in the tournament field (tournListNames) and creates new global array*/
+  fieldNoStats = owgrField.concat(owgrObjects.filter(player => tournListtNames.includes(player.name)));
 }
 
+/**Adds additional shots gained tee to green to this weeks tournament field and creates a new global array*/
 function addSgTg(){
-
- output = final.reduce((a, p) => {
+ thisWeeksTournamentField = fieldNoStats.reduce((a, p) => {
   const uP = sgTeeGreenObjects.find(u => u.name === p.name);
   if (uP) a.push({...p, sgtg:uP.rank});
   return a;
 }, []);
 }
 
-tournamentParticipants()
+/**Creates weighted averages and  for each property for each golfer in the tournament field*/
 
-/*
-owgr = 70
-teetogreen = 15
-pos=7.5
-neg=7.5 
-    Let v0=(1/w0),v1=(1/w1),v2=(1/w2),
-and let t=v0+v1+v2.
-Then simply scale v0,v1,v2 by
-u0=(v0/t),u1=(v1/t),u2=(v2/t).
+function getWeightedthisWeeksTournamentField(){
+  /**establishes  baseline for owgr ranking*/
 
-
-*/
-
-function getWeightedOutput(){
-  output.forEach(player => { 
+  thisWeeksTournamentField.forEach(player => { 
     if(player.ranking >= 1 && player.ranking <= 5 ){ 
       player.ranking = 10;
     }
@@ -96,7 +83,8 @@ function getWeightedOutput(){
     }
   });
 
-  output.forEach(player => { 
+  /**shots gained tee to green*/
+  thisWeeksTournamentField.forEach(player => { 
     if(player.sgtg >= 1 && player.sgtg <= 10 ){ 
       player.sgtg = 10;
     }
@@ -130,8 +118,94 @@ function getWeightedOutput(){
    
   });
 
-}
-addSgTg()
-getWeightedOutput()
-console.log(output)
+    /**sets points for positive OWGR Changes*/
+    
+  thisWeeksTournamentField.forEach(player => { 
+      if(player.lastWeek === 5 ){ 
+        player.lastWeek = 1;
+      }
+      if(player.lastWeek === 6 ){ 
+        player.lastWeek = 2;
+      }
+      if(player.lastWeek === 7 ){ 
+        player.lastWeek = 3;
+      }
+      if(player.lastWeek === 8 ){ 
+        player.lastWeek = 4;
+      }
+      if(player.lastWeek === 9 ){ 
+        player.lastWeek = 5;
+      }
+      if(player.lastWeek === 10 ){ 
+        player.lastWeek = 6;
+      }
+      if(player.lastWeek === 11 ){ 
+        player.lastWeek = 7;
+      }
+      if(player.lastWeek === 12 ){ 
+        player.lastWeek = 8;
+      }
+      if(player.lastWeek === 13 ){ 
+        player.lastWeek = 9;
+      }
+      if(player.lastWeek >= 14 ){ 
+        player.lastWeek = 10;
+      }    
+    });
 
+    /**sets points for negative OWGR Changes*/
+    thisWeeksTournamentField.forEach(player => { 
+      if(player.lastWeek === -5 ){ 
+        player.lastWeek = -1;
+      }
+      if(player.lastWeek === -6 ){ 
+        player.lastWeek = -2;
+      }
+      if(player.lastWeek === -7 ){ 
+        player.lastWeek = -3;
+      }
+      if(player.lastWeek === -8 ){ 
+        player.lastWeek = -4;
+      }
+      if(player.lastWeek === -9 ){ 
+        player.lastWeek = -5;
+      }
+      if(player.lastWeek === -10 ){ 
+        player.lastWeek = -6;
+      }
+      if(player.lastWeek === -11 ){ 
+        player.lastWeek = -7;
+      }
+      if(player.lastWeek === -12 ){ 
+        player.lastWeek = -8;
+      }
+      if(player.lastWeek === -13 ){ 
+        player.lastWeek = -9;
+      }
+      if(player.lastWeek <= -14 ){ 
+        player.lastWeek = -10;
+      }    
+    });
+   
+}
+
+function calculateFinalRankings(){
+  thisWeeksTournamentField.forEach(function (element) {
+    element.finalRanking = element.ranking * 0.70 + element.sgtg * 0.20 + element.lastWeek *0.10
+  });
+  weeklyRankingsOutput = thisWeeksTournamentField.map(player => ({ playerRating: player.finalRanking, Name: player.name }));
+  weeklyRankingsOutput.sort(({playerRating:a}, {playerRating:b}) => b-a);
+ 
+
+};
+
+
+
+tournamentParticipants()
+rankingTrendSetter()
+addSgTg()
+getWeightedthisWeeksTournamentField()
+calculateFinalRankings()
+const WeeklyTop10 = weeklyRankingsOutput.slice(0, 10);
+console.log(WeeklyTop10)
+console.log(thisWeeksTournamentField)
