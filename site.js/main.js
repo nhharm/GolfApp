@@ -208,4 +208,3 @@ getWeightedthisWeeksTournamentField()
 calculateFinalRankings()
 const WeeklyTop10 = weeklyRankingsOutput.slice(0, 10);
 console.log(WeeklyTop10)
-console.log(thisWeeksTournamentField)
