@@ -1,6 +1,6 @@
-var owgrDataRaw = require('./owgrrankings1010.json'); //(with path)
-var nextTournament = require('./zozo.json'); //(with path)
-var sgTeeGreenRaw = require('./sgtg1010.json'); //(with path)
+var owgrDataRaw = require('./owgrrankings1016.json'); //(with path)
+var nextTournament = require('./CJCup.json'); //(with path)
+var sgTeeGreenRaw = require('./sgtg1016.json'); //(with path)
 
 let stringTournament = JSON.stringify(nextTournament);
 let tournamentObjects = JSON.parse(stringTournament);
@@ -12,7 +12,7 @@ let sgtegString = JSON.stringify(sgTeeGreenRaw);
 let sgTeeGreenObjects = JSON.parse(sgtegString);
 
 
-/**Sets World Golf Rankings Watermark Positive or Negative Trends */
+/**Sets World Golf Rankings Positive or Negative Trends */
 function rankingTrendSetter(){
 owgrObjects.forEach(player => { 
   const findRankingChange = player.lastWeek - player.ranking
