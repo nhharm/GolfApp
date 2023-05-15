@@ -1,6 +1,6 @@
-var owgrDataRaw = require('./owgr011222.json'); //(with path)
-var nextTournament = require('./SonyOpenField.json'); //(with path)
-var sgTeeGreenRaw = require('./sgtg011222.json'); //(with path)
+var owgrDataRaw = require('./owgr011922.json'); //(with path)
+var nextTournament = require('./American Express Open.json'); //(with path)
+var sgTeeGreenRaw = require('./sgtg011922.json'); //(with path)
 
 let stringTournament = JSON.stringify(nextTournament);
 let tournamentObjects = JSON.parse(stringTournament);
